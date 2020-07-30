@@ -220,7 +220,7 @@ class vaegan(object):
             os.makedirs(checkpoint_dir)
         self.saver.save(sess, os.path.join(checkpoint_dir, self.model_name + '.model'), global_step=step)
 
-    def infer_batch(self, model_path):
+    def infer(self, model_path):
         val_images_name = self.data_db_val.data_list
         val_fmris_name = [name.replace("B", "A").replace("JPEG", "mat") for name in val_images_name]
         assert len(val_images_name) == len(val_fmris_name)

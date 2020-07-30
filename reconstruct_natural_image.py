@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
     vaeGan.build_model_vaegan()
 
-    vaeGan.infer_batch(model_path=model_path)
+    vaeGan.infer(model_path=model_path)
 
 
 
