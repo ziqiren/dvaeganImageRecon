@@ -34,13 +34,13 @@ for train/test data prepare
 ### Data
 
 - The unpreprocessed fMRI data: [Deep Image Reconstruction@OpenNeuro](https://openneuro.org/datasets/ds001506)
-- detailed preprocessing steps can be found in paper [Shen, Horikawa, Majima, and Kamitani (2019) Deep image reconstruction from human brain activity. PLOS Computational Biology].
+- detailed preprocessing steps can be found in paper [Shen, Horikawa, Majima, and Kamitani (2019) Deep image reconstruction from human brain activity. PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006633)
 - data need to be processed to several pairs (fMRI vector, stimulus image) for train/test, for example: (A_1.mat, B_1.JPEG)
 
 ### Model
 
 - You need the following tensorflow model files to run the example scripts .
-    Google Driver :  https://drive.google.com/file/d/13vIyrjYvG7uuRsvetD7d6mfuUw65Ew0W/view?usp=sharing
+   [d-vaegan-model](https://drive.google.com/file/d/13vIyrjYvG7uuRsvetD7d6mfuUw65Ew0W/view?usp=sharing)
 
 
 
