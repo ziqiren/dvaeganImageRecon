@@ -40,7 +40,7 @@ for train/test data prepare
 ### Model
 
 - You need the following tensorflow model files to run the example scripts .
-    Google Driver :  (https://docs.google.com/document/d/1BrINm4V7JB2GcUDfWHDN2ZQyEl1NcIGwnpuO4SpWgRg/edit?usp=sharing, 举例，最后换掉)
+    Google Driver :  https://drive.google.com/file/d/13vIyrjYvG7uuRsvetD7d6mfuUw65Ew0W/view?usp=sharing
 
 
 
