@@ -262,47 +262,4 @@ class vaegan(object):
                 save_images_by_name(next_x_images,save_path_real,names)
                 save_images_by_name(recon_images,save_path_recon,names)
 
-    def infer_batch_phase1(self, model_path):
-        val_images_name = self.data_db_val.data_list
-        #val_fmris_name = [name.replace("B", "A").replace("JPEG", "mat") for name in val_images_name]
-
-        init = tf.global_variables_initializer()
-        config = tf.ConfigProto()
-        config.gpu_options.allow_growth = True
-
-        print('[*] test data loaded successfully')
-        print("# test data len for stage 1: %d  " % (len(val_images_name)))
-
-        with tf.Session(config=config) as sess:
-            sess.run(init)
-            if model_path:
-                print(" [*] Loading to  {}".format(model_path))
-                ckpt = tf.train.get_checkpoint_state(model_path)
-                ckpt_name = os.path.basename(ckpt.model_checkpoint_path)
-                self.saver.restore(sess, os.path.join(model_path, ckpt_name))
-                print(" [*] Success to read {}".format(ckpt_name))
-            else:
-                print('[*] model is missed')
-                os._exit(0)
-            i = 0
-            epoch_size = int(len(val_images_name)/self.batch_size)
-            # remove overlap images:
-            # name_set = set()
-            for idx in range(0, epoch_size):
-                batch_images, names = self.load_training_imgs(val_images_name, idx)
-                #batch_z = self.load_training_vectors(val_fmris_name, idx)
-
-                next_x_images = batch_images
-
-                fd = {self.images: next_x_images}
-
-                recon_images = sess.run(self.x_tilde, feed_dict=fd)
-
-                save_path_recon = os.path.join(self.save_path, "recon")
-                save_path_real = os.path.join(self.save_path, "real")
-                save_images_by_name(next_x_images,save_path_real,names)
-                save_images_by_name(recon_images,save_path_recon,names)
-
-
-
 

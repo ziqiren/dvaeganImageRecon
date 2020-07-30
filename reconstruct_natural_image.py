@@ -27,14 +27,7 @@ if __name__ == "__main__":
 
     vaeGan.build_model_vaegan()
 
-    """
-    stage 2 / 3
-    """
     vaeGan.infer_batch(model_path=model_path)
-    """
-    stage 1
-    """
-    # vaeGan.infer_batch_phase1(model_path=model_path)
 
 
 
