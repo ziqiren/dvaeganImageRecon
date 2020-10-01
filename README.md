@@ -42,5 +42,16 @@ for train/test data prepare
 - You need the following tensorflow model files to run the example scripts .
    [d-vaegan-model](https://drive.google.com/file/d/13vIyrjYvG7uuRsvetD7d6mfuUw65Ew0W/view?usp=sharing)
 
+### Results
+
+- The reconstructed images of Miyawaki08 dataset: 
+ [Miyawaki08](https://drive.google.com/file/d/1Tflvvkgq0k5_rmwPOjHrP2MvmGKkol6t/view?usp=sharing)
+- The reconstructed images of vanGerven10 dataset: 
+ [vanGerven10](https://drive.google.com/file/d/1wDi0OWTowySTtGsDtnj80qTauwQgDhCh/view?usp=sharing)
+- The reconstructed images of Schoenmakers13 dataset: 
+ [Schoenmakers13](https://drive.google.com/file/d/1dWgwTl2iRBCFGAywqJW7Ur_rdQynvahL/view?usp=sharing)
+- The reconstructed images of Horikawa17 dataset: 
+ [Horikawa17](https://drive.google.com/file/d/1YpoTV0Eu7n-FPG_Ho2_mVJjFmwbc987V/view?usp=sharing)
+
 
 
