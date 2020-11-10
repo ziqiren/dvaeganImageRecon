@@ -45,13 +45,13 @@ for train/test data prepare
 ### Results
 
 - The reconstructed images of Miyawaki08 dataset: 
- [Miyawaki08](https://drive.google.com/file/d/1Tflvvkgq0k5_rmwPOjHrP2MvmGKkol6t/view?usp=sharing)
+ [Miyawaki08](https://github.com/ziqiren/dvaeganImageRecon/blob/master/ReconImage/data1_imgs.pdf)
 - The reconstructed images of vanGerven10 dataset: 
- [vanGerven10](https://drive.google.com/file/d/1wDi0OWTowySTtGsDtnj80qTauwQgDhCh/view?usp=sharing)
+ [vanGerven10](https://github.com/ziqiren/dvaeganImageRecon/blob/master/ReconImage/data2_imgs.pdf)
 - The reconstructed images of Schoenmakers13 dataset: 
- [Schoenmakers13](https://drive.google.com/file/d/1dWgwTl2iRBCFGAywqJW7Ur_rdQynvahL/view?usp=sharing)
+ [Schoenmakers13](https://github.com/ziqiren/dvaeganImageRecon/blob/master/ReconImage/data3_imgs.pdf)
 - The reconstructed images of Horikawa17 dataset: 
- [Horikawa17](https://drive.google.com/file/d/1YpoTV0Eu7n-FPG_Ho2_mVJjFmwbc987V/view?usp=sharing)
+ [Horikawa17](https://github.com/ziqiren/dvaeganImageRecon/blob/master/ReconImage/data4_imgs.pdf)
 
 
 
